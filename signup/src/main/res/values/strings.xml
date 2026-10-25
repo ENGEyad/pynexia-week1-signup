@@ -1,0 +1,31 @@
+<resources>
+    <string name="logo_description">Pynexia learning project logo</string>
+    <string name="eyebrow">PYNEXIA / WEEK 01</string>
+    <string name="app_name">Pynexia Sign-Up</string>
+    <string name="headline">Make room\nfor what’s next.</string>
+    <string name="intro">Create your local learning profile.</string>
+    <string name="name_label">Full name</string>
+    <string name="name_hint">Your name</string>
+    <string name="email_label">Email address</string>
+    <string name="email_hint">you@example.com</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">At least 8 characters</string>
+    <string name="confirm_label">Confirm password</string>
+    <string name="confirm_hint">Enter your password again</string>
+    <string name="submit">Create account</string>
+    <string name="creating">Creating account…</string>
+    <string name="guidance">Use 8–128 characters, including a letter and a number. Complete all fields to continue.</string>
+    <string name="ready">All set. Your account is ready to create.</string>
+    <string name="name_error">Enter a name between 2 and 80 characters.</string>
+    <string name="email_error">Enter a valid email address.</string>
+    <string name="password_error">Use 8–128 characters with a letter and a number.</string>
+    <string name="confirm_error">Passwords must match.</string>
+    <string name="duplicate">An account with this email already exists on this device.</string>
+    <string name="save_error">Could not save your account. Please try again.</string>
+    <string name="local_note">Practice app · accounts stay on this device.</string>
+    <string name="success_title">You’re all set.</string>
+    <string name="success_body">Your local account has been created.</string>
+    <string name="profile_format">%1$s\n%2$s</string>
+    <string name="another">Create another account</string>
+    <string name="success_label">ACCOUNT CREATED</string>
+</resources>

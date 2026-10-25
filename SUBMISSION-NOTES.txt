@@ -1,0 +1,9 @@
+Native Android Sign-Up App built with Java and XML. The form includes Name, Email, Password and Confirm Password. Field validation checks name length, email format, password rules and matching confirmation. Create account is enabled only when all fields are valid. Successful registration opens a confirmation Activity using an Intent.
+
+Accounts are stored locally in app-private storage; duplicate emails are rejected case-insensitively. Passwords are salted and derived with PBKDF2-HMAC-SHA256, never stored as plaintext. Derivation runs off the UI thread, and pending registration survives Activity recreation. This assignment is local-only: there is no server or email verification, and these accounts are separate from the Simple Login App's demo credentials.
+
+Run: open the source folder in Android Studio, sync Gradle, and run signup on Android 8.0/API 26 or later. Use a 2-80 character name, a valid email, and an 8-128 character password containing a letter and a digit; enter the same password in both fields.
+
+Validation: debug APK built successfully; 3 JVM tests and 2 instrumentation tests passed on a Pixel 8 emulator (Android 17/API 37). Lint completed with zero errors; warnings are documented. Source, Gradle Wrapper, APK, screenshots and verification reports are included in the attached ZIP.
+
+Hosted URL: project showcase with actual screenshots and APK/PDF downloads; not a browser emulator. The ZIP also includes a bilingual implementation report.

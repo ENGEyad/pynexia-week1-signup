@@ -1,0 +1,5 @@
+<resources>
+    <color name="background">#F5F7F3</color><color name="ink">#142D2B</color>
+    <color name="muted">#53645F</color><color name="accent">#11685B</color>
+    <color name="soft">#E2EEE7</color><color name="white">#FFFFFF</color><color name="error">#A62626</color>
+</resources>

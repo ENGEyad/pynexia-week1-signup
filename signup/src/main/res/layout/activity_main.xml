@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:importantForAutofill="noExcludeDescendants"
+    android:clipToPadding="false">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="28dp" >
+        <TextView style="@style/Eyebrow" android:text="@string/eyebrow" /><TextView style="@style/Title" android:text="@string/headline" /><TextView style="@style/Body" android:text="@string/intro" /><TextView style="@style/Label" android:text="@string/name_label" android:labelFor="@+id/name"/>
+    <EditText android:id="@id/name" style="@style/Input" android:hint="@string/name_hint"
+        android:inputType="textPersonName" android:imeOptions="actionNext" android:maxLength="80"/>
+    <TextView style="@style/Label" android:text="@string/email_label" android:labelFor="@+id/email"/>
+    <EditText android:id="@id/email" style="@style/Input" android:hint="@string/email_hint"
+        android:inputType="textEmailAddress" android:imeOptions="actionNext" android:maxLength="254"/>
+    <TextView style="@style/Label" android:text="@string/password_label" android:labelFor="@+id/password"/>
+    <EditText android:id="@id/password" style="@style/Input" android:hint="@string/password_hint"
+        android:inputType="textPassword" android:imeOptions="actionNext" android:saveEnabled="false" android:maxLength="128"/>
+    <TextView style="@style/Label" android:text="@string/confirm_label" android:labelFor="@+id/confirm"/>
+    <EditText android:id="@id/confirm" style="@style/Input" android:hint="@string/confirm_hint"
+        android:inputType="textPassword" android:imeOptions="actionNext" android:saveEnabled="false" android:maxLength="128"/>
+    <TextView style="@style/Body" android:text="@string/guidance" android:id="@+id/feedback" android:accessibilityLiveRegion="polite"/><Button android:id="@+id/submit" style="@style/PrimaryButton" android:text="@string/submit" android:enabled="false"/><TextView style="@style/Body" android:text="@string/local_note" />
+    </LinearLayout>
+</ScrollView>

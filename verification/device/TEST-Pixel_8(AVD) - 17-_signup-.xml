@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.pynexia.week1.signup.AppFlowTest" tests="2" failures="0" errors="0" skipped="0" time="21.078" timestamp="2026-10-24T23:56:11" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_8(AVD) - 17" />
+    <property name="flavor" value="" />
+    <property name="project" value=":signup" />
+  </properties>
+  <testcase name="registrationSurvivesActivityRecreation" classname="com.pynexia.week1.signup.AppFlowTest" time="8.485" />
+  <testcase name="registersValidatesAndRejectsDuplicate" classname="com.pynexia.week1.signup.AppFlowTest" time="7.125" />
+</testsuite>

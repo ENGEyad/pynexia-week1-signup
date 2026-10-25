@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pynexia.week1.signup.FormRulesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-24T23:57:40" hostname="EYAD" time="0.017">
+  <properties/>
+  <testcase name="requiresLettersDigitsAndLength" classname="com.pynexia.week1.signup.FormRulesTest" time="0.014"/>
+  <testcase name="validatesEmail" classname="com.pynexia.week1.signup.FormRulesTest" time="0.001"/>
+  <testcase name="validatesNames" classname="com.pynexia.week1.signup.FormRulesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
